@@ -1,7 +1,7 @@
 node {
    stage('Prepare') {
       
-      git credentialsId: 'git-cred', url: 'https://github.com/DaghariHalima/Project-Docker.git'
+      git credentialsId: 'git-cred', url: 'hhttps://gitlab.com/Hallouma/docker-project.git'
       if (!fileExists("docker-compose.yml")) {
          error('Dockerfile missing.')
       }
